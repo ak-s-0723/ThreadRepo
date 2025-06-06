@@ -1,0 +1,10 @@
+FIND OUT SUM TILL N NUMBERS AND THIS SUM WILL BE PRINTED BY SOME THREAD (NOT MAIN)
+
+Thread pool is a place where i keep my threads and if there is any task , my thread can
+just a pick task from there and start executing it.
+
+Executor Service or Executors is implementation of Thread Pool in Java
+-> FixedThreadPool -> number of threads will be fixed in this case when we create
+                      Executor Service object
+-> CachedThreadPool -> if all the threads are busy and there is a need of a thread,
+                       it will create a thread, otherwise it will use the idle thread.
